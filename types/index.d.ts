@@ -34,6 +34,7 @@ type Renderers = {
   tablebody: InstantiableSvelteComponentTyped<{}>
   tablerow: InstantiableSvelteComponentTyped<{}>
   tablecell: InstantiableSvelteComponentTyped<{}>
+  highlight: InstantiableSvelteComponentTyped<MarkedRendererProps<Tokens.Text>>
   list: InstantiableSvelteComponentTyped<MarkedRendererProps<Tokens.List>>
 
   // Technically, listItem includes {type: string, tokens: []} in the props,
