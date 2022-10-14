@@ -20,6 +20,7 @@ import {
   Hr,
   Html,
   Blockquote,
+  Highlight,
   Code,
   Br,
 } from './renderers'
@@ -39,6 +40,7 @@ export const defaultRenderers = {
   tablebody: TableBody,
   tablerow: TableRow,
   tablecell: TableCell,
+  highlight: Highlight,
   list: List,
   orderedlistitem: null,
   unorderedlistitem: null,
